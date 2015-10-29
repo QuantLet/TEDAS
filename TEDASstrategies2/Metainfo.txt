@@ -1,0 +1,23 @@
+Book : Tail Event Driven Asset Allocation
+
+Quantlet : TEDASstrategies2
+
+Description : 'Testimates the cumulative return for 4 strategies from the latest 
+update of the TEDAS project: TEDAS Advanced, TEDAS Expert, TEDAS Naive and RR' 
+
+Usage : 
+
+Inputs : None
+
+Output : 'a plot of the three strategies cumulative return against the chosen 
+benchmark index'
+
+Keywords : 'L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso, 
+portfolio, quantile regression, skewness, variable selection'
+
+Author : Sergey Nasekin
+
+See also : TEDAS_gestalts, TEDAS_perform
+
+Datafile : 'hedf_bloom_ret.mat, hedf_bloom_tick.mat, icatvd.p, icatvd_init.p, 
+stock_indices.mat'

@@ -1,0 +1,27 @@
+
+Book : Tail Event Driven Asset Allocation
+
+Quantlet : TEDAS_gestalts
+
+Description : 'TEDAS_gestalts plots cumulative returns of 3 TEDAS_gestalts
+for Mutual funds and German stocks' samples against benchmark strategies:
+Risk-parity, Mean-variance OGARCH and 60/40 portfolio, as well as corresponding
+cores (DAX30 - for German stocks' sample,  S&P500 - for Mutual Funds)'
+
+Usage : None
+
+Inputs : None
+
+Output : 'plots with cumulative returns of TEDAS gestalts and benchmark
+strategies for 2 samples (German stocks and Mutual funds)'
+
+Keywords : asset, dax, returns, log-returns, index, plot, strategy, time-series  
+
+Author : Alla Petukhina 
+
+See also : 'TEDAS_dcc_garch, TEDAS_ogarch, TEDAS_qrRho, TEDAS_strategies,
+TEDASstrategies2'
+
+Datafile : 'TEDAS_GS.mat, TEDAS_MF.mat, GS_ret.mat, MF_Ret.mat,
+GS_Tick.mat, MF_Tick.mat'
+
