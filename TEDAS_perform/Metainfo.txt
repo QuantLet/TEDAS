@@ -4,9 +4,9 @@ Book : Tail Event Driven Asset Allocation
 Quantlet : TEDAS_perform
 
 Description : 'TEDAS_perform constructs latex table with performance measures of 
-of 3 TEDAS gestalts for Mutual funds and German stocks' samples and benchmark 
+of 3 TEDAS gestalts for Mutual funds and German stocks samples and benchmark 
 strategies : Risk-parity, Mean-variance OGARCH and 60/40 portfolio, as well as 
-corresponding cores (DAX30 - for German stocks' sample,  S&P500 - for Mutual 
+corresponding cores (DAX30 - for German stocks sample,  S&P500 - for Mutual 
 Funds). The following traditional performance and risk measures for allocation
 strategies are presented : cumulative returns, Sharpe ratios, Maximum
 drawdowns' 
