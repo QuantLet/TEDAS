@@ -1,5 +1,5 @@
 
-Quantlet : TEDASstrategies2
+Name of QuantLet : TEDASstrategies2
 
 Published in : Tail Event Driven Asset Allocation
 
