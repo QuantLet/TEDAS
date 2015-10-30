@@ -15,7 +15,7 @@ Author : Sergey Nasekin
 
 Submitted : 30/10/2015
   
-Datafile : latexTable.m, TEDAS_GS.mat, TEDAS_MF.mat, TEDAS_RF_GS.mat, TEDAS_RF_MF.mat 
+Datafile : hedfhd_short.mat, hedfhdnames_short.mat 
 
 Output:  autocorrelation plots for 4 different hedge funds
 
