@@ -24,7 +24,7 @@ Author : Alla Petukhina
 
 Datafile : 'TEDAS_GS.mat, TEDAS_MF.mat, GS_ret.mat, MF_Ret.mat, GS_Tick.mat, MF_Tick.mat'
 
-Output : 'plots with cumulative returns of TEDAS gestalts and benchmark
+Output : 'Plots with cumulative returns of TEDAS gestalts and benchmark
 strategies for 2 samples (German stocks and Mutual funds)'
 
 Example : 
