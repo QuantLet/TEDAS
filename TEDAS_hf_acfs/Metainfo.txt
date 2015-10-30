@@ -1,9 +1,9 @@
 
-Name of QuantLet :TEDAS_hf_acfs
+Name of QuantLet : TEDAS_hf_acfs
 
 Published in : Tail Event Driven Asset Allocation
   
-Description : 'produces autocorrelation plots for 4 different hedge funds’ returns'
+Description : 'produces autocorrelation plots for 4 different hedge funds returns'
 
 Keywords : 'asset, returns, log-returns, index, strategy, time-series,
 autocorrelation function'
