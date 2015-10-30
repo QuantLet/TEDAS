@@ -4,7 +4,7 @@ clear
 load('TEDAS_GS.mat') % Cumulative returns of TEDAS gestalts and benchmark srategies for German stocks' sample
 load('TEDAS_MF.mat') % Cumulative returns for TEDAS gestalts and benchmark srategies for Mutual funds' sample
 load('TEDAS_RF_GS.mat') % Risk-free rate for German stocks (Long Term German government Bond  9-10 years) 
-%load('TEDAS_RF_MF.mat') % Risk-free rate for Mutual funds 
+load('TEDAS_RF_MF.mat') % Risk-free rate for Mutual funds 
 ishift  = 0;
 num_dig = 4;
 Date    = TEDAS_GS(2:end,1);
