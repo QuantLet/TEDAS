@@ -1,28 +1,28 @@
 
-Book : Tail Event Driven Asset Allocation
+Name of QuantLet :  TEDAS_perform
 
-Quantlet : TEDAS_perform
-
-Description : 'constructs latex table with performance measures of 
+Published in : Tail Event Driven Asset Allocation
+  
+Description : 'Constructs latex table with performance measures of 
 of 3 TEDAS gestalts for Mutual funds and German stocks samples and benchmark 
 strategies : Risk-parity, Mean-variance OGARCH and 60/40 portfolio, as well as 
 corresponding cores (DAX30 - for German stocks sample,  S&P500 - for Mutual 
 Funds). The following traditional performance and risk measures for allocation
 strategies are presented : cumulative returns, Sharpe ratios, Maximum
-drawdowns' 
+drawdowns'
 
-Usage : latexTable
-
-Inputs : None
-
-Output : 'LaTex code for the table, containing performance measures for
-TEDAS gestalts and benchmark strategies'
-
-Keywords : asset, dax, returns, log-returns, index, strategy, time-series  
-
-Author : Alla Petukhina 
+Keywords : asset, dax, returns, log-returns, index, strategy, time-series   
 
 See also : 'TEDAS_dcc_garch, TEDAS_ogarch, TEDAS_qrRho, TEDAS_strategies,
-TEDASstrategies2, TEDAS_gestalts'
+TEDASstrategies2, TEDAS_gestalts' 
 
-Datafile : TEDAS_GS.mat, TEDAS_MF.mat, TEDAS_RF_GS.mat, TEDAS_RF_MF.mat
+Author : Alla Petukhina
+
+Submitted :  
+  
+Datafile : latexTable.m, TEDAS_GS.mat, TEDAS_MF.mat, TEDAS_RF_GS.mat, TEDAS_RF_MF.mat 
+
+Output:  'LaTex code for the table, containing performance measures for
+TEDAS gestalts and benchmark strategies'
+
+Example:  Table containing performance measures for TEDAS gestalts and benchmark strategies
