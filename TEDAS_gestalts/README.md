@@ -33,8 +33,10 @@ Output : 'Plots with cumulative returns of TEDAS gestalts and benchmark
 strategies for 2 samples (German stocks and Mutual funds)'
 
 Example : 
-- Plot with cumulative returns of TEDAS gestalts: TEDAS basic (red), TEDAS naive (blue) and TEDAS hybrid (green) for Mutual funds against the SnP500 (black)
-- Plot with cumulative returns of TEDAS Hybrid (green) against benchmark strategies: MV OGARCH (magenta), 60/40-portfolio (purple) and Risk Parity (orange) for Mutual funds
+- Plot with cumulative returns of TEDAS gestalts: TEDAS basic (red), TEDAS naive (blue) and 
+TEDAS hybrid (green) for Mutual funds against the SnP500 (black)
+- Plot with cumulative returns of TEDAS Hybrid (green) against benchmark strategies: MV OGARCH (magenta), 
+60/40-portfolio (purple) and Risk Parity (orange) for Mutual funds
 
 ```
 
