@@ -1,7 +1,7 @@
 
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **<QNAME>**
+## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **TEDAS_perform**
 
 ```yaml
 Name of QuantLet :  TEDAS_perform
