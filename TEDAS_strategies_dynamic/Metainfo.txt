@@ -20,7 +20,7 @@ Submitted : 2017/01/12
 Datafile : 'tedas_daily_dataset_hfs_indiv.mat, highperfind.mat'
 
 Example : 
-- S&P500 benchmark cumulative returns
+- SP500 benchmark cumulative returns
 - NIKKEI225 benchmark cumulative returns
 - FTSE100 benchmark cumulative return
 - DAX30 benchmark cumulative return
