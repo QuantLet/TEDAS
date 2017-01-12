@@ -349,23 +349,47 @@ for l = wwidth:size(XRET,1)
     
 end
 
-%% Cumulative wealth plotting
+%% Value-at-Risk plotting
 
-weights      = VWTS;
-dates_sample = Date(length(Date)-length(weights)+1:end);
+VARSc         = VAR./Vcappp;
+weights       = VWTS;
+dates_sample  = Date(length(Date)-length(weights)+1:end);
+dates_to_plot = [];
 
-% Plot the cumulative wealth
-pfig = figure;
-plot(dates_sample,Icappp,'LineWidth',3)
+% Calculate the Value-at-Risk
+for i = 1:length(weights)
+    
+    if (weights{i} ~= 0)
+        idx           = INDEX{i};
+        P             = XRET(i:i+wwidth-1,idx);
+        w             = weights{i}; 
+        VaRCF         = -VARSc(i);
+        PVaRs         = [PVaRs,VaRCF];
+        portfRet      = w*XRET(i+wwidth-1,idx)';
+        Prets         = [Prets,portfRet];
+        dates_to_plot = [dates_to_plot,dates_sample(i)];
+    end
+    
+end
+
+normVaRind    = find(abs(PVaRs) < 0.10);
+PVaRs         = PVaRs(normVaRind);
+Prets         = Prets(normVaRind);
+dates_to_plot = dates_to_plot(normVaRind);
+
+normRetind    = find(Prets < 0.10);
+PVaRs         = PVaRs(normRetind);
+Prets         = Prets(normRetind);
+dates_to_plot = dates_to_plot(normRetind);
+
+% Plot the VaR
+vfig = figure;
+plot(dates_to_plot,PVaRs,'LineWidth',2)
 datetick('x')
 hold on
-plot(dates_sample,Vcappp,'Color',[0,127/255,0],'LineWidth',2)
-plot(dates_sample,Ccappp,'Color',[0,127/255,255/255],'LineWidth',2)
-plot(dates_sample,Ncappp,'Color',[127/255,17/255,0/255],'LineWidth',2)
-plot(dates_sample,Ucappp,'Color',[0,204/255,77/255],'LineWidth',2)
+plot(dates_to_plot,Prets,'.','MarkerSize',20)
 ylabel('Profit/Loss')
-title('Benchmark: S&P500') %change benchmark name
 xlim('auto')
-set(pfig, 'Position', [10 10 800 500])
+set(vfig, 'Position', [10 10 1000 500])
 
 

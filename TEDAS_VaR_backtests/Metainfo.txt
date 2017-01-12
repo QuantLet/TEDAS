@@ -1,17 +1,16 @@
-
 Name of QuantLet : 'TEDAS_VaR_backtests'
 
 Published in : Tail Event Driven Asset Allocation
 
-Description : 'estimates the cumulative return for 3 strategies from the TEDAS project: with  Cornish-Fisher dynamic Value-at-Risk, expected utility and risk-return allocations for daily data'
+Description : 'estimates the dynamic Value-at-Risk for different market benchmarks: S&P 500, NIKKEI225,
+FTSE100, DAX30, UPRO, TQQQ'
 
 Keywords : 'L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso, 
 portfolio, quantile regression, skewness, variable selection' 
 
 See also : TEDAS_gestalts, TEDAS_perform, TEDAS_strategies2, TEDAS_strategies_dynamic
 
-Output : 'A plot of the three strategies cumulative return against the chosen 
-benchmark indices buy-and-hold and naive equal weights allocation strategies'
+Output : 'A plot of portfolio returns and estimated dynamic Value-at-Risk for the chosen benchmark indices'
 
 Author : Sergey Nasekin
 
@@ -20,7 +19,7 @@ Submitted : 2017/01/12
 Datafile : 'tedas_daily_dataset_hfs_indiv.mat, highperfind.mat'
 
 Example : 
-- S&P500 benchmark cumulative returns
+- 'S&P500 benchmark cumulative returns'
 - NIKKEI225 benchmark cumulative returns
 - FTSE100 benchmark cumulative return
 - DAX30 benchmark cumulative return
