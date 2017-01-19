@@ -1,6 +1,9 @@
-|Q-Quali |Q folders         |Q Names          |Descriptions stats           |Keywords stats             |Meta Info data fields          |PDF files                                |
-|:-------|:-----------------|:----------------|:----------------------------|:--------------------------|:------------------------------|:----------------------------------------|
-|A       |TEDAS_gestalts    |TEDAS_gestalts   |38 word(s), 215 Character(s) |8: 8 (standard), 0 (new)   |q, p, a, d, k, df, e, o, sa    |                                         |
-|B       |TEDAS_hf_acfs     |TEDAS_hf_acfs    |8 word(s), 58 Character(s)   |7: 6 (standard), 1 (new)   |q, p, a, d, k, df, e, o, s, sa |                                         |
-|B       |TEDAS_perform     |TEDAS_perform    |60 word(s), 363 Character(s) |7: 7 (standard), 0 (new)   |q, p, a, d, k, df, e, o, s, sa |If PDF is a picture PNG or JPG required! |
-|A       |TEDAS_strategies2 |TEDASstrategies2 |22 word(s), 118 Character(s) |10: 10 (standard), 0 (new) |q, p, a, d, k, df, e, o, sa    |                                         |
+|Q-Quali |Q folders                |Q Names                  |Descriptions stats           |Keywords stats             |Found SW |Meta Info data fields          |PDF files                                |
+|:-------|:------------------------|:------------------------|:----------------------------|:--------------------------|:--------|:------------------------------|:----------------------------------------|
+|A       |TEDAS_dim_frequencies    |TEDAS_dim_frequencies    |23 word(s), 131 Character(s) |11: 11 (standard), 0 (new) |matlab   |q, p, a, d, k, df, e, o, s, sa |                                         |
+|A       |TEDAS_gestalts           |TEDAS_gestalts           |38 word(s), 215 Character(s) |8: 8 (standard), 0 (new)   |matlab   |q, p, a, d, k, df, e, o, sa    |                                         |
+|B       |TEDAS_hf_acfs            |TEDAS_hf_acfs            |8 word(s), 58 Character(s)   |7: 6 (standard), 1 (new)   |matlab   |q, p, a, d, k, df, e, o, s, sa |                                         |
+|B       |TEDAS_perform            |TEDAS_perform            |60 word(s), 363 Character(s) |7: 7 (standard), 0 (new)   |matlab   |q, p, a, d, k, df, e, o, s, sa |If PDF is a picture PNG or JPG required! |
+|A       |TEDAS_strategies_dynamic |TEDAS_strategies_dynamic |26 word(s), 147 Character(s) |10: 10 (standard), 0 (new) |matlab   |q, p, a, d, k, df, e, o, s, sa |                                         |
+|A       |TEDAS_strategies2        |TEDASstrategies2         |22 word(s), 118 Character(s) |10: 10 (standard), 0 (new) |matlab   |q, p, a, d, k, df, e, o, sa    |                                         |
+|A       |TEDAS_VaR_backtests      |TEDAS_VaR_backtests      |17 word(s), 92 Character(s)  |10: 10 (standard), 0 (new) |matlab   |q, p, a, d, k, df, e, o, s, sa |                                         |
