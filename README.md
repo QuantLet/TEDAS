@@ -1,2 +1,0 @@
-# TEDAS
-TEDAS codes
