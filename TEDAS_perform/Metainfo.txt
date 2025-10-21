@@ -18,7 +18,7 @@ TEDASstrategies2, TEDAS_gestalts'
 
 Author : Alla Petukhina
 
-Submitted :  
+Submitted :  30.10.2015
   
 Datafile : latexTable.m, TEDAS_GS.mat, TEDAS_MF.mat, TEDAS_RF_GS.mat, TEDAS_RF_MF.mat 
 
