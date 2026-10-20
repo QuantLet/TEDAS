@@ -11,7 +11,7 @@ Published in: Tail Event Driven Asset Allocation
 
 Description: estimates the model dimension by Lasso quantile regression in the TEDAS approach for different market benchmarks: S&P 500, NIKKEI225, FTSE100, DAX30, UPRO, TQQQ
 
-Keywords: L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso,
+Keywords: L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso, portfolio, quantile regression, skewness, variable selection, histogram
 
 See also: TEDAS_perform, TEDAS_strategies2, TEDAS_strategies_dynamic, TEDAS_VaR_backtests
 
@@ -24,7 +24,7 @@ Submitted: 2017/01/13
 Datafile: tedas_daily_dataset_hfs_indiv.mat, highperfind.mat, BETA_dax30.mat, BETA_ftse100.mat, BETA_nikkei225.mat, BETA_sp500.mat, BETA_tqqq.mat, BETA_upro.mat
 
 Example: 
-- 'S&P500 benchmark esitmated frequency
+- S&P500 benchmark esitmated frequency
 - NIKKEI225 benchmark esitmated frequency
 - FTSE100 benchmark esitmated frequency
 - DAX30 benchmark esitmated frequency
