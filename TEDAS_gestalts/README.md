@@ -11,7 +11,7 @@ Published in: Tail Event Driven Asset Allocation
 
 Description: Plots cumulative returns of 3 TEDAS_gestalts
 
-for Mutual funds and German stocks samples against benchmark strategies: 
+for Mutual funds and German stocks samples against benchmark strategies: Risk-parity, Mean-variance OGARCH and 60/40 portfolio, as well as corresponding cores (DAX30 - for German stocks sample,  S&P500 - for Mutual Funds)'
 
 Keywords: 
 - asset
@@ -29,10 +29,11 @@ Author: Alla Petukhina
 
 Datafile: TEDAS_GS.mat, TEDAS_MF.mat, GS_ret.mat, MF_Ret.mat, GS_Tick.mat, MF_Tick.mat
 
-Output: Plots with cumulative returns of TEDAS gestalts and benchmark
+Output: Plots with cumulative returns of TEDAS gestalts and benchmark strategies for 2 samples (German stocks and Mutual funds)
 
 Example: 
-- 'Plot with cumulative returns of TEDAS gestalts: TEDAS basic (red), TEDAS naive (blue) and TEDAS hybrid (green) for Mutual
+- Plot with cumulative returns of TEDAS gestalts: TEDAS basic (red), TEDAS naive (blue) and TEDAS hybrid (green) for Mutual funds against the SnP500 (black)
+- Plot with cumulative returns of TEDAS Hybrid (green) against benchmark strategies: MV OGARCH (magenta), 60/40-portfolio (purple) and Risk Parity (orange) for Mutual funds
 
 ```
 <div align="center">
