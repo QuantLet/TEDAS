@@ -11,9 +11,9 @@ Published in: Tail Event Driven Asset Allocation
 
 Description: produces autocorrelation plots for 4 different hedge funds returns
 
-Keywords: asset, returns, log-returns, index, strategy, time-series,
+Keywords: asset, returns, log-returns, index, strategy, time-series, autocorrelation function
 
-See also: TEDAS_dcc_garch, TEDAS_ogarch, TEDAS_qrRho, TEDAS_strategies,
+See also: TEDAS_dcc_garch, TEDAS_ogarch, TEDAS_qrRho, TEDAS_strategies, TEDASstrategies2, TEDAS_gestalts
 
 Author: Sergey Nasekin
 
