@@ -11,17 +11,17 @@ Published in: Tail Event Driven Asset Allocation
 
 Description: Testimates the cumulative return for 4 strategies from the latest
 
-update of the TEDAS project: TEDAS Advanced, TEDAS Expert, TEDAS Naive and RR
+update of the TEDAS project: TEDAS Advanced, TEDAS Expert, TEDAS Naive and RR'
 
-Keywords: L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso,
+Keywords: L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso, portfolio, quantile regression, skewness, variable selection
 
 See also: TEDAS_gestalts, TEDAS_perform
 
-Output: A plot of the three strategies cumulative return against the chosen
+Output: A plot of the three strategies cumulative return against the chosen benchmark index
 
 Author: Sergey Nasekin
 
-Datafile: hedf_bloom_ret.mat, hedf_bloom_tick.mat, icatvd.p, icatvd_init.p,
+Datafile: hedf_bloom_ret.mat, hedf_bloom_tick.mat, icatvd.p, icatvd_init.p, stock_indices.mat
 
 Example: 
 - S&P500 benchmark cumulative returns
