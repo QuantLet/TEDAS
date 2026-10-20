@@ -9,9 +9,9 @@ Name of QuantLet: TEDAS_VaR_backtests
 
 Published in: Tail Event Driven Asset Allocation
 
-Description: estimates the dynamic Value-at-Risk for different market benchmarks: S&P 500, NIKKEI225,
+Description: estimates the dynamic Value-at-Risk for different market benchmarks: S&P 500, NIKKEI225, FTSE100, DAX30, UPRO, TQQQ
 
-Keywords: L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso,
+Keywords: L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso, portfolio, quantile regression, skewness, variable selection
 
 See also: TEDAS_gestalts, TEDAS_perform, TEDAS_strategies2, TEDAS_strategies_dynamic
 
@@ -24,12 +24,12 @@ Submitted: 2017/01/12
 Datafile: tedas_daily_dataset_hfs_indiv.mat, highperfind.mat
 
 Example: 
-- 'S&P500 benchmark portfolio return and Value-at-Risk
-- 'NIKKEI225 benchmark portfolio return and Value-at-Risk
-- 'FTSE100 benchmark portfolio return and Value-at-Risk
-- 'DAX30 benchmark portfolio return and Value-at-Risk
-- 'UPRO benchmark portfolio return and Value-at-Risk
-- 'TQQQ benchmark portfolio return and Value-at-Risk
+- S&P500 benchmark portfolio return and Value-at-Risk
+- NIKKEI225 benchmark portfolio return and Value-at-Risk
+- FTSE100 benchmark portfolio return and Value-at-Risk
+- DAX30 benchmark portfolio return and Value-at-Risk
+- UPRO benchmark portfolio return and Value-at-Risk
+- TQQQ benchmark portfolio return and Value-at-Risk
 
 ```
 <div align="center">
