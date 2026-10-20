@@ -11,11 +11,11 @@ Published in: Tail Event Driven Asset Allocation
 
 Description: estimates the cumulative return for 3 strategies from the TEDAS project: with  Cornish-Fisher dynamic Value-at-Risk, expected utility and risk-return allocations for daily data
 
-Keywords: L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso,
+Keywords: L1-norm penalty, Linear programming, VaR, dynamic, kurtosis, lasso, portfolio, quantile regression, skewness, variable selection
 
 See also: TEDAS_gestalts, TEDAS_perform, TEDAS_strategies2
 
-Output: A plot of the three strategies cumulative return against the chosen
+Output: A plot of the three strategies cumulative return against the chosen benchmark indices buy-and-hold and naive equal weights allocation strategies
 
 Author: Sergey Nasekin
 
